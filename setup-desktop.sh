@@ -9,55 +9,35 @@ fi
 
 ${cmd} pacman -Syu --noconfirm \
   ${LP_XF86_PKG} \
-  abiword \
   arc-gtk-theme \
   arc-icon-theme \
-  bluez \
-  bluez-utils \
   chromium \
   compton \
-  darkhttpd \
-  docker \
-  docker-compose \
   epdfview \
   feh \
-  firefox \
   fish \
-  gimp \
   git \
   gnome-themes-extra \
-  gnumeric \
   gpicview \
   gtk-engine-murrine \
   gvfs \
-  gvfs-mtp \
   i3-gaps \
   i3lock \
   i3status \
-  inkscape \
   leafpad \
   maim \
-  mariadb-clients \
   mpc \
-  mpd \
   mpv \
   ncmpcpp \
   neovim \
-  nfs-utils \
-  nodejs \
   ntp \
   openssh \
   pamixer \
   pcmanfm \
   pulseaudio \
-  pulseaudio-bluetooth \
   rofi \
   rxvt-unicode \
   sylpheed \
-  texlive-core \
-  texlive-fontsextra \
-  texlive-formatsextra \
-  texlive-latexextra \
   ttf-dejavu \
   ttf-droid \
   ttf-inconsolata \
@@ -70,7 +50,6 @@ ${cmd} pacman -Syu --noconfirm \
   xorg-server \
   xorg-xinit \
   xorg-xrandr \
-  yarn \
   zip
 
 cp -af ./root/. ${dir}
