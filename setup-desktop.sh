@@ -78,7 +78,7 @@ cp -af ./root/. ${dir}
 ${cmd} timedatectl set-ntp true
 ${cmd} mkdir -p /home/${LP_USER}
 ${cmd} git clone --bare https://github.com/linux-play/linux-play-dotfiles.git /home/${LP_USER}/.dotfiles
-${cmd} git checkout --git-dir=/home/${LP_USER}/.dotfiles --work-tree=/home/${LP_USER}
+${cmd} git --git-dir=/home/${LP_USER}/.dotfiles --work-tree=/home/${LP_USER} checkout
 ${cmd} useradd -d /home/${LP_USER} ${LP_USER}
 ${cmd} chown -R ${LP_USER} /home/${LP_USER}
 ${cmd} echo "${LP_USER} ALL=(ALL) ALL" | (EDITOR='tee -a' visudo)
