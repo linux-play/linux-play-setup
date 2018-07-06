@@ -54,7 +54,6 @@ ${cmd} pacman -Syu --noconfirm \
 
 cp -af ./root/. ${dir}
 
-${cmd} timedatectl set-ntp true
 ${cmd} mkdir -p /home/${LP_USER}
 ${cmd} git clone --bare https://github.com/linux-play/linux-play-dotfiles.git /home/${LP_USER}/.dotfiles
 ${cmd} git --git-dir=/home/${LP_USER}/.dotfiles --work-tree=/home/${LP_USER} checkout
