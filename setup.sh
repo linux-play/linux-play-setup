@@ -15,6 +15,7 @@ params=(
   LP_MIRROR   'https://ftp.fau.de/archlinux/\$repo/os/\$arch'
   LP_TIMEZONE 'Europe/Berlin'
   LP_USER     'user'
+  LP_XF86_PKG 'xf86-video-vesa'
 )
 
 function confirm {
