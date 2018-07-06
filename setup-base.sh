@@ -42,5 +42,3 @@ arch-chroot /mnt mkinitcpio -p linux
 arch-chroot /mnt grub-install ${LP_DEVICE}
 arch-chroot /mnt grub-mkconfig -o /boot/grub/grub.cfg
 arch-chroot /mnt systemctl enable dhcpcd
-
-umount -R /mnt
