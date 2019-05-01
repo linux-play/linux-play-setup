@@ -26,10 +26,7 @@ ${cmd} pacman -Syu --noconfirm \
   i3status \
   leafpad \
   maim \
-  mpc \
   mpv \
-  ncmpcpp \
-  neovim \
   ntp \
   openssh \
   pamixer \
@@ -37,7 +34,6 @@ ${cmd} pacman -Syu --noconfirm \
   pulseaudio \
   rofi \
   rxvt-unicode \
-  sylpheed \
   ttf-dejavu \
   ttf-droid \
   ttf-inconsolata \
